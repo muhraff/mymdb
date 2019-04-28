@@ -40,7 +40,7 @@
                         <h5 class="card-title">{{ movie.Title }}</h5>
                         <h6 class="card-subtitle mb-2 text-muted">{{ movie.Year }}, {{ movie.Type}} </h6>
                         <p class="card-text">IMDB ID: {{ movie.imdbID }}</p>
-                        <button @click.stop="removeWishList(movie)"  class="btn btn-block btn-primary">remove form wish list</button>
+                        <!--<button @click.stop="removeWishList(movie)"  class="btn btn-block btn-primary">remove form wish list</button>-->
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
 
                 if(wishList.indexOf(movie) < 0) {
                     wishList.splice(wishList, 1);
-                    
+
                     console.log(wishList);
                     //wishList.push(id);
                 }
