@@ -51,7 +51,7 @@
 
 <script>
 
-    const API_URL = 'http://www.omdbapi.com/?apikey=1e815dc3&s=:query';
+    const API_URL = 'https://www.omdbapi.com/?apikey=1e815dc3&s=:query';
 
     export default {
         data: () => ({
