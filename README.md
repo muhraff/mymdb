@@ -1,7 +1,8 @@
 # mymdb
 
-## View
-Fine open `~/public/index.html`
+## Public URL
+ `https://muhraff.github.io/mymdb/public/`
+[Click here for demo]( https://muhraff.github.io/mymdb/public/)
 
 ## For Dev
 
