@@ -2,7 +2,6 @@
 //import html pages into bundle
 import '../index.html';
 
-
 import Vue from 'vue';
 
 import App from './App';
